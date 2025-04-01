@@ -1,2 +1,2 @@
 echo "Initializing Lab...."
-apt-get install httpd -y
+apt-get install apache2 -y
