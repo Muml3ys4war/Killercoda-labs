@@ -1,0 +1,6 @@
+{
+    "title":"Simple Ubuntu Environment",
+    "backend": {
+        "imageid" : "ubuntu"
+    }
+}
