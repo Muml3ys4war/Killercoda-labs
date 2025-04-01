@@ -1,5 +1,8 @@
 {
-    "title":"Simple Ubuntu Environment",
+    "title":"Simple Apache Environment",
+    "details" : {
+        "background" : "setup.sh"
+    },
     "backend": {
         "imageid" : "ubuntu"
     }
