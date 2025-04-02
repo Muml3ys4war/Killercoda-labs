@@ -45,14 +45,14 @@ apache2ctl configtest
 If the Syntax is Ok , then restart the Apache2 service
 
 ```plain
-systemctl restart apache2
+systemctl reload apache2
 systemctl status apache2 --no-pager
 ```{{exec}}
 
 Generate Log and verify logging
 ```plain
 curl http://localhost
-tail -f /var/log/apache2/access_log
+tail -5 /var/log/apache2/access_log
 ```{{exec}}
 
 You can similarly generate error logs and verify it in the error_log file
