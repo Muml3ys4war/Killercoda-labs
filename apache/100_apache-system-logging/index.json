@@ -1,0 +1,23 @@
+{
+    "title" : "Configuring Apache System Logging and Centralized Log Management",
+    "description" : "Let's learn about apache logging mechanism , Centralized log using syslog and implement log rotation for efficient log management" ,
+    "details" : {
+        "intro" : {
+            "text" : "intro.md",
+            "background": "setup.sh"
+        },
+        "steps" : [
+            {
+                "title" : "Apache Logging Configuration",
+                "text" : "step1/text.md",
+                "verify" : "step1/verify.sh"
+            }
+        ],
+        "finish" : {
+            "text" : "finish.md"
+        }
+    },
+    "backend": {
+        "imageid" : "ubuntu"
+    }
+}
