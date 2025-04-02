@@ -43,7 +43,7 @@ apache2ctl configtest
 
 If the Syntax is Ok , then restart the Apache2 service
 
-````plain
+```plain
 systemctl restart apache2
 systemctl status apache2 --no-pager
 ```{{exec}}
