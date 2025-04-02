@@ -11,6 +11,7 @@ Verify the Installation of Apache on the system
 ```plain
 systemctl status apache2
 ```{{exec}}
+Wait few seconds if apache2 is not active or running
 
 To view more information on Apache , run
 ```plain
